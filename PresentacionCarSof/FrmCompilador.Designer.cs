@@ -1,6 +1,6 @@
 ﻿namespace PresentacionCarSof
 {
-    partial class Form1
+    partial class FrmCompilador
     {
         /// <summary>
         /// Variable del diseñador necesaria.

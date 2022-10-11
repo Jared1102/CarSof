@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PresentacionCarSof
 {
-    public partial class Form1 : Form
+    public partial class FrmCompilador : Form
     {
-        public Form1()
+        public FrmCompilador()
         {
             InitializeComponent();
         }
