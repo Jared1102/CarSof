@@ -20,7 +20,7 @@ namespace Manejadores
                 string[] tokens = lineas[i].Split(' ');
                 for (int j = 0; j < tokens.Length; j++)
                 {
-                    listTokens.Add(generarToken(i, tokens[j],contador));
+                    listTokens.Add(generarToken((i+1), tokens[j],contador));
                     contador++;
                 }
             }
