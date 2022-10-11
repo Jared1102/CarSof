@@ -24,7 +24,7 @@ namespace Manejadores
                     contador++;
                 }
             }
-            tabla.DataSource = listTokens;
+            tabla.DataSource = listTokens.ToList();
         }
 
         private Tokens generarToken(int linea, string valor, int No)
