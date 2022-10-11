@@ -20,8 +20,12 @@ namespace Manejadores
                 string[] tokens = lineas[i].Split(' ');
                 for (int j = 0; j < tokens.Length; j++)
                 {
-                    listTokens.Add(generarToken((i+1), tokens[j],contador));
-                    contador++;
+                    if (!string.IsNullOrEmpty(tokens[j]))
+                    {
+                        listTokens.Add(generarToken((i + 1), tokens[j], contador));
+                        contador++;
+                    }
+                    
                 }
             }
             tabla.DataSource = listTokens.ToList();
