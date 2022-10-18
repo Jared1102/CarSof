@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
 
@@ -51,6 +48,7 @@ namespace Manejadores
             {
                 return "Palabra Reservada";
             }
+
             if (instrucciones.Contains(valor))
             {
                 return "Instrucción";
