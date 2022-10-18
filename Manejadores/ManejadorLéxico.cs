@@ -15,15 +15,7 @@ namespace Manejadores
             string[] lineas = texto.Split('\n');
             for (int i = 0; i < lineas.Length; i++)
             {
-                string[] tokens = lineas[i].Split(' ','\r');
-                for (int j = 0; j < tokens.Length; j++)
-                {
-                    if (!string.IsNullOrEmpty(tokens[j]) && !string.IsNullOrWhiteSpace(tokens[j]))
-                    {
-                        listTokens.Add(generarToken((i + 1), tokens[j], contador));
-                        contador++;
-                    }
-                }
+
             }
             tabla.DataSource = listTokens.ToList();
         }
