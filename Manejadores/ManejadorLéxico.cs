@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using Entidades;
 
@@ -10,12 +12,29 @@ namespace Manejadores
         private List<Tokens> listTokens = new List<Tokens>();
         public void HacerLexico(string texto, DataGridView tabla)
         {
-            listTokens.Clear();
             int contador = 1;
-            string[] lineas = texto.Split('\n');
-            for (int i = 0; i < lineas.Length; i++)
+            listTokens.Clear();
+            string[] linea = texto.Split('\n');
+            for (int i = 0; i < linea.Length; i++)
             {
-
+                if (linea[i].StartsWith("#")){
+                    listTokens.Add(generarToken((i + 1), linea[i], contador));
+                    contador++;
+                }
+                else
+                {
+                    string[] token = linea[i].Split(' ', '\r', '(', ')');
+                    for (int j = 0; j < token.Length; j++)
+                    {
+                        if (!string.IsNullOrEmpty(token[j]) || !string.IsNullOrWhiteSpace(token[j]))
+                        {
+                            listTokens.Add(generarToken((i + 1), token[j], contador));
+                            contador++;
+                        }
+                    }
+                }
+                
+                
             }
             tabla.DataSource = listTokens.ToList();
         }
@@ -33,8 +52,9 @@ namespace Manejadores
 
         private string obtenerTipo(string valor)
         {
-            string[] reservadas = { "Get" ,"*int","*string","*double","if","for","while","*arm","else"};
-            string[] instrucciones = { "Run.Up", "Run.Stop", "Run.Turn", "On", "Off" };
+            string[] reservadas = {"Traer"};
+            string[] instrucciones = { "Run.Up", "Run.Stop", "Run.Turn", "On", "Off" ,"wait"};
+            string[] tipoDato = { "*int", "*decimal", "*string", "*bool" };
 
             if (reservadas.Contains(valor))
             {
@@ -45,7 +65,66 @@ namespace Manejadores
             {
                 return "Instrucción";
             }
+            if (listTokens.Count!=0)
+            {
+                if (listTokens[listTokens.Count-1].Tipo=="Instrucción")
+                {
+                    return "Expresión de instrucción";
+                }
+            }
+
+            if (listTokens.Count != 0)
+            {
+                if (listTokens[listTokens.Count - 1].Tipo == "Condicional")
+                {
+                    return "Expresión de condicional";
+                }
+            }
+            if (valor=="$")
+            {
+                return "Apertura de bloque";
+            }
+            if (valor == "$$")
+            {
+                return "Cierre de bloque";
+            }
+            if (valor=="if")
+            {
+                return "Condicional";
+            }
+            if (ERComentario(valor))
+            {
+                return "Comentario";
+            }
+            if (tipoDato.Contains(valor))
+            {
+                return "Tipo de dato";
+            }
+            if (asignacion(valor))
+            {
+                return "Expresión de asignación";
+            }
             return "No identificable";
+        }
+
+        private bool asignacion(string valor)
+        {
+            string ER = @"\A[A-Za-z]\w*?=[0-9]+?\Z";
+            if (Regex.IsMatch(valor, ER))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private bool ERComentario(string valor)
+        {
+            string ER = @"#\w*?";
+            if (Regex.IsMatch(valor, ER))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
