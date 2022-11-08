@@ -1,0 +1,18 @@
+D:\VS 2022 Soluciones\CarSof\Manejadores\bin\Debug\Manejadores.dll
+D:\VS 2022 Soluciones\CarSof\Manejadores\bin\Debug\Manejadores.pdb
+D:\VS 2022 Soluciones\CarSof\Manejadores\bin\Debug\Entidades.dll
+D:\VS 2022 Soluciones\CarSof\Manejadores\bin\Debug\Entidades.pdb
+D:\VS 2022 Soluciones\CarSof\Manejadores\obj\Debug\Manejadores.csproj.AssemblyReference.cache
+D:\VS 2022 Soluciones\CarSof\Manejadores\obj\Debug\Manejadores.csproj.CoreCompileInputs.cache
+D:\VS 2022 Soluciones\CarSof\Manejadores\obj\Debug\Manejadores.csproj.CopyComplete
+D:\VS 2022 Soluciones\CarSof\Manejadores\obj\Debug\Manejadores.dll
+D:\VS 2022 Soluciones\CarSof\Manejadores\obj\Debug\Manejadores.pdb
+C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.csproj.AssemblyReference.cache
+C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.csproj.CoreCompileInputs.cache
+C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.dll
+C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.pdb
+C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Manejadores.dll
+C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Manejadores.pdb
+C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Entidades.dll
+C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Entidades.pdb
+C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.csproj.CopyComplete
