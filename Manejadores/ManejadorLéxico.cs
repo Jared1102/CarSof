@@ -56,6 +56,10 @@ namespace Manejadores
             string[] instrucciones = { "Run.Up", "Run.Stop", "Run.Turn", "On", "Off" ,"wait"};
             string[] tipoDato = { "*int", "*decimal", "*string", "*bool" };
 
+            if (valor == "$$")
+            {
+                return "Cierre de bloque";
+            }
             if (reservadas.Contains(valor))
             {
                 return "Palabra Reservada";
@@ -84,10 +88,7 @@ namespace Manejadores
             {
                 return "Apertura de bloque";
             }
-            if (valor == "$$")
-            {
-                return "Cierre de bloque";
-            }
+            
             if (valor=="if")
             {
                 return "Condicional";
@@ -104,6 +105,7 @@ namespace Manejadores
             {
                 return "Expresión de asignación";
             }
+            
             return "No identificable";
         }
 
