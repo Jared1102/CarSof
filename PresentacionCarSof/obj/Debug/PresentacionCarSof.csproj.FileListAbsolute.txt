@@ -1,0 +1,32 @@
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.exe.config
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.exe
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.pdb
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\Entidades.dll
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\Manejadores.dll
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\Entidades.pdb
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\bin\Debug\Manejadores.pdb
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.AssemblyReference.cache
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.SuggestedBindingRedirects.cache
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.FrmCompilador.resources
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.Properties.Resources.resources
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.GenerateResource.cache
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.CoreCompileInputs.cache
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.CopyComplete
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.exe
+D:\VS 2022 Soluciones\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.pdb
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.exe.config
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.exe
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\PresentacionCarSof.pdb
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\Entidades.dll
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\Manejadores.dll
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\Entidades.pdb
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\Manejadores.pdb
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.AssemblyReference.cache
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.SuggestedBindingRedirects.cache
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.FrmCompilador.resources
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.Properties.Resources.resources
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.GenerateResource.cache
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.CoreCompileInputs.cache
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.CopyComplete
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.exe
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.pdb
