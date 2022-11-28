@@ -30,3 +30,4 @@ C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarS
 C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.csproj.CopyComplete
 C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.exe
 C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\obj\Debug\PresentacionCarSof.pdb
+C:\Users\cacah\source\repos\CarSof\PresentacionCarSof\bin\Debug\Crud.dll

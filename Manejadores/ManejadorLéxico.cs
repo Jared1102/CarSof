@@ -10,7 +10,7 @@ namespace Manejadores
     public class ManejadorLéxico
     {
         private List<Tokens> listTokens = new List<Tokens>();
-        public void HacerLexico(string texto, DataGridView tabla)
+        public List<Tokens> HacerLexico(string texto, DataGridView tabla)
         {
             int contador = 1;
             listTokens.Clear();
@@ -37,6 +37,7 @@ namespace Manejadores
                 
             }
             tabla.DataSource = listTokens.ToList();
+            return listTokens;
         }
 
         private Tokens generarToken(int linea, string valor, int No)
@@ -77,6 +78,12 @@ namespace Manejadores
                 }
             }
 
+            
+            
+            if (valor=="$")
+            {
+                return "Apertura de bloque";
+            }
             if (listTokens.Count != 0)
             {
                 if (listTokens[listTokens.Count - 1].Tipo == "Condicional")
@@ -84,11 +91,6 @@ namespace Manejadores
                     return "Expresión de condicional";
                 }
             }
-            if (valor=="$")
-            {
-                return "Apertura de bloque";
-            }
-            
             if (valor=="if")
             {
                 return "Condicional";
@@ -105,7 +107,14 @@ namespace Manejadores
             {
                 return "Expresión de asignación";
             }
-            
+            if (listTokens.Count != 0)
+            {
+                if (listTokens[listTokens.Count - 1].Tipo == "Tipo de dato")
+                {
+                    return "Identificador";
+                }
+            }
+
             return "No identificable";
         }
 

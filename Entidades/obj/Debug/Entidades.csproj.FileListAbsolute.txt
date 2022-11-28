@@ -4,3 +4,9 @@ D:\VS 2022 Soluciones\CarSof\Entidades\obj\Debug\Entidades.csproj.AssemblyRefere
 D:\VS 2022 Soluciones\CarSof\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\VS 2022 Soluciones\CarSof\Entidades\obj\Debug\Entidades.dll
 D:\VS 2022 Soluciones\CarSof\Entidades\obj\Debug\Entidades.pdb
+C:\Users\cacah\source\repos\CarSof\Entidades\bin\Debug\Entidades.dll
+C:\Users\cacah\source\repos\CarSof\Entidades\bin\Debug\Entidades.pdb
+C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.dll
+C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.pdb

@@ -16,3 +16,4 @@ C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Manejadores.pdb
 C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Entidades.dll
 C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Entidades.pdb
 C:\Users\cacah\source\repos\CarSof\Manejadores\obj\Debug\Manejadores.csproj.CopyComplete
+C:\Users\cacah\source\repos\CarSof\Manejadores\bin\Debug\Crud.dll
