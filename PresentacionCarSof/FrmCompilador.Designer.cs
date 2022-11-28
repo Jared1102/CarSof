@@ -49,7 +49,7 @@
             this.txtEditor.Size = new System.Drawing.Size(465, 629);
             this.txtEditor.TabIndex = 0;
             this.txtEditor.TabStop = false;
-            this.txtEditor.Text = "#Ejemplo\r\n*int x=0\r\nif(x)\r\n$\r\nRun.Up(500,front)\r\nwait(1000)\r\nRun.Stop()\r\n$$";
+            this.txtEditor.Text = "#Ejemplo\r\n*int x=0\r\nif(x==0)\r\n$\r\nRun.Up(500,front)\r\nwait(1000)\r\nRun.Stop()\r\n$$";
             // 
             // btnLexico
             // 
@@ -119,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1462, 692);
+            this.ClientSize = new System.Drawing.Size(1370, 692);
             this.Controls.Add(this.dtgSintactico);
             this.Controls.Add(this.btnSintactico);
             this.Controls.Add(this.dtgTokens);

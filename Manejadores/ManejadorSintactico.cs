@@ -4,20 +4,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Crud;
 using System.Windows.Forms;
 
 namespace Manejadores
 {
     public class ManejadorSintactico
     {
-        private Grafico grafico = new Grafico();
         private string[] parametros;
         private int numericValue;
         private int contadorErrores=0;
         private List<ErroresSintacticos> erroresSintacticos= new List<ErroresSintacticos>();
         public void HacerSintactico(List<Tokens> tokens, DataGridView tablaErrores)
         {
+            tablaErrores.Columns.Clear();
             for (int i = 0; i < tokens.Count-1; i++)
             {
                 switch (tokens[i].Tipo)
@@ -245,15 +244,33 @@ namespace Manejadores
 
         private bool buscarIdentificador(string valor, List<Tokens> tokens)
         {
+            string identficiador = "";
             foreach (var item in tokens)
             {
-                if (item.Tipo=="Identificador" || item.Tipo=="Expresión de asignación")
+                if (item.Tipo == "Expresión de asignación")
                 {
-                    if (item.Valor.Contains(valor))
+
+                    for (int i = 0; i < item.Valor.Length; i++)
+                    {
+                        if (!item.Valor.Contains("="))
+                            identficiador = string.Concat(identficiador, item.Valor[i]);
+                        else
+                            break;
+                    }
+
+                    if (valor.Contains(identficiador))
                     {
                         return false;
                     }
                 }
+                if (item.Tipo=="Identificador" || item.Tipo=="Expresión de asignación")
+                {
+                    if (valor.Contains(item.Valor.ToString()))
+                    {
+                        return false;
+                    }
+                }
+                
             }
             return true;
         }

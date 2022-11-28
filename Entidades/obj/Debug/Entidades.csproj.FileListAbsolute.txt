@@ -10,3 +10,6 @@ C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.csproj.Assembly
 C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.dll
 C:\Users\cacah\source\repos\CarSof\Entidades\obj\Debug\Entidades.pdb
+D:\VS 2022 Soluciones\CarSof\Entidades\bin\Debug\Crud.dll
+D:\VS 2022 Soluciones\CarSof\Entidades\bin\Debug\Crud.pdb
+D:\VS 2022 Soluciones\CarSof\Entidades\obj\Debug\Entidades.csproj.CopyComplete
